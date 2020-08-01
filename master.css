@@ -1,0 +1,41 @@
+.homepage{
+  text-align: center;
+  font-style: italic;
+}
+.babyprime{
+  height: 300px;
+  width: 300px;
+  saturate: 25%;
+  contrast: 25%;
+  border: groove steelblue 10px;
+  padding: 10px;
+  border-radius: 100px;
+}
+.index{
+  color: red;
+  font-size: 20px;
+}
+  .column {
+  float: left;
+  width: 50%;
+}
+.row{
+float: right;
+width: 45s%;
+}
+.backgroundIndex{
+  background: linear-gradient( 45deg, yellow,gray,white);
+}
+.Nicknames{
+color:red;
+}
+.nicknameimg{
+  height: 300px;
+  width:300px;
+  border: double red 10px;
+  border-radius: 100px;
+  margin: 0 0 0 100px;
+  rotate: 35deg;
+  saturate: 30%;
+  contrast: 75%;
+}
