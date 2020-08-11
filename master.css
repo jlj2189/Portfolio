@@ -15,27 +15,35 @@
   color: red;
   font-size: 20px;
 }
-  .column {
-  float: left;
-  width: 50%;
-}
-.row{
-float: right;
-width: 45s%;
-}
 .backgroundIndex{
   background: linear-gradient( 45deg, yellow,gray,white);
 }
+nav{
+  text-align: left;
+}
 .Nicknames{
 color:red;
+
 }
 .nicknameimg{
+  text-align: center;
   height: 300px;
   width:300px;
   border: double red 10px;
   border-radius: 100px;
-  margin: 0 0 0 100px;
+  margin: 0 0 0 350px;
   rotate: 35deg;
   saturate: 30%;
   contrast: 75%;
+}
+
+}
+.eating{
+background: url("https://wallup.net/wp-content/uploads/2016/05/25/198690-texture.jpg");
+}
+.baby-food{
+  height: 300px;
+  width: 300px;
+  border: dotted white 20px;
+  padding: 20px;
 }
