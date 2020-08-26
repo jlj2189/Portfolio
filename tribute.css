@@ -2,17 +2,32 @@
 background: linear-gradient(-0.25turn, #3f87a6, #ebf8e1, #f69d3c);
 text-align: center;
 }
+#title{
+  font-family: sans-serif;
+  text-decoration-line: underline;
+  font-size: 50px;
+}
 #img-div{
-
+border-radius: 150px;
+border-style: dashed groove none dotted;
 }
 #image{
   border-radius: 100px;
-  height: 600px;
-  width: 800px;
+  height: 800px;
+  width: 1000px;
 }
 #image-caption{
+font-family: sans-serif;
 
 }
 #tribute-info{
+border-style: solid;
+  font-size: 45px;
+}
+.tribute-info{
+  text-align: left;
+  font-size: 35px;
+}
+#tribute-link{
 
 }
