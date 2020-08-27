@@ -12,9 +12,12 @@ border-radius: 150px;
 border-style: dashed groove none dotted;
 }
 #image{
-  border-radius: 100px;
-  height: 800px;
-  width: 1000px;
+width: 200%;
+height: auto;
+max-width: 800px;
+margin-left: auto;
+margin-right: auto;
+display: block;
 }
 #image-caption{
 font-family: sans-serif;
@@ -28,6 +31,8 @@ border-style: solid;
   text-align: left;
   font-size: 35px;
 }
-#tribute-link{
-
+.chefs{
+  font-size: 35px;
+  border-style: dotted;
+  font-family: sans-serif;
 }
