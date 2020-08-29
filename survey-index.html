@@ -4,14 +4,22 @@
   <head>
 <h1 id="title">Free Information on Becoming a Chef</h1>
   </head>
-  <p id="description"> How to make a hobby for cooking into a career</p>
-    <br>
+  <p id="description"> How to make a hobby of cooking into a career</p>
   <form id="survey-form">
-    <p> Name: </p>
-    <input id="name" type="text" name="fullname" placeholder="Name">
-    <p> Email:</p>
-    <input id="email" type="email" placeholder="Enter your email">
-<input type="submit" value="Submit">
-      <p> Age: (optional)</p>
-   <input id="number" type="number" min="16" max="99">
+    <label id="name-label"> Name: </label><br>
+    <input id="name" type="text" name="fullname" placeholder="Name" Required><br>
+    <label id="email-label"> Email:</label><br>
+    <input id="email" type="email" placeholder="Enter your email" Required>
+<input type="submit" value="Submit"><br>
+      <label id="number-label"> Age: (optional)</label><br>
+   <input id="number"  type="number" placeholder="number" min="16" max="99"><br>
+    <label> Which Career Path are you looking for? (Select One)</label><br>
+    <select name="career" id="dropdown">
+  <option value="Executive Chef">Executive Chef</option>
+  <option value="Executive Pastry Chef">Executive Pastry Chef</option>
+  <option value="Itamae">Itamae</option>
+  <option value="Food and Beverage Director">F&B Director</option>
+</select>
+
+
   </body>
