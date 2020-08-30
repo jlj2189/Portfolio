@@ -4,22 +4,45 @@
   <head>
 <h1 id="title">Free Information on Becoming a Chef</h1>
   </head>
-  <p id="description"> How to make a hobby of cooking into a career</p>
+  <p id="description"> How to make a hobby of cooking into a career</p><br><br><br>
   <form id="survey-form">
-    <label id="name-label"> Name: </label><br>
-    <input id="name" type="text" name="fullname" placeholder="Name" Required><br>
-    <label id="email-label"> Email:</label><br>
+    <label id="name-label"> Name: </label><br><br>
+    <input id="name" type="text" name="fullname" placeholder="Name" Required><br><br>
+    <label id="email-label"> Email:</label><br><br>
     <input id="email" type="email" placeholder="Enter your email" Required>
-<input type="submit" value="Submit"><br>
-      <label id="number-label"> Age: (optional)</label><br>
-   <input id="number"  type="number" placeholder="number" min="16" max="99"><br>
-    <label> Which Career Path are you looking for? (Select One)</label><br>
+<input type="submit" value="Submit"><br><br>
+      <label id="number-label"> Age: (optional)</label><br><br>
+   <input id="number"  type="number" placeholder="number" min="16" max="99"><br><br>
+    <label> Which Career Path are you looking for? (Select One)</label><br><br>
     <select name="career" id="dropdown">
   <option value="Executive Chef">Executive Chef</option>
   <option value="Executive Pastry Chef">Executive Pastry Chef</option>
   <option value="Itamae">Itamae</option>
   <option value="Food and Beverage Director">F&B Director</option>
-</select>
-
-
-  </body>
+</select><br><br>
+  Which Cuisine is your favorite to style?(Choose One)<br><br>
+<input type="radio" name="favorite_cuisine"
+value="Italian" checked> Italian <br>
+<input type="radio" name="favorite_cuisine"
+value="Peruvian"> Peruvian <br>
+<input type="radio" name="favorite_cuisine"
+value="Japanese"> Japanese <br>
+<input type="radio" name="favorite_cuisine"
+value="Chinese"> Chinese <br>
+<input type="radio" name="favorite_cuisine"
+value="French"> French <br>
+<input type="radio" name="favorite_cuisine"
+value="American"> American <br>
+<input type="radio" name="favorite_cuisine"
+value="Indian"> Indian <br><br>
+  Would you like to be added to our mailing list?<br>
+<input type="checkbox" id="checkbox" name="mail-list" value="Yes">
+<label for="mail-list"> Yes</label><br>
+<input type="checkbox" id="checkbox" name="mail-list" value="No">
+<label for="mail-list"> No</label><br><br>
+<form action="/html/codes/html-comment-box-code-action.cfm" method="get">
+List your skills and/or qualifications:<br>
+<textarea rows="4" cols="25"></textarea><br /><br><br>
+<input type="submit" value="Submit" />
+</form>
+ </body>
