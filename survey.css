@@ -1,9 +1,14 @@
 body{
   text-align: center;
-  background-image: url("https://previews.123rf.com/images/9dreamstudio/9dreamstudio1907/9dreamstudio190703586/127745800-tools-and-equipment-for-cooking-frame-of-cookware-for-chef-work-on-white-background-top-view-space-f.jpg");
+ background: url(https://media.istockphoto.com/photos/cutting-board-with-chef-hat-knife-tomatoes-onion-background-picture-id185095805?k=6&m=185095805&s=612x612&w=0&h=WaCGCHRCyQwFAt3OX0n47Qk0iKf9s6Nh_3rZJnPkzQQ=) no-repeat center;
+background-size: cover;
 }
 #survey-form{
+  padding-left: 350px;
+  padding-right: 350px;
+  background: gray;
+  background-clip: content-box;
+  opacity: .75;
+  font-size: 25px;
   text-align: left;
-  padding-left: 400px;
-  background-color:
 }
