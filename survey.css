@@ -1,14 +1,47 @@
 body{
   text-align: center;
- background: url(https://media.istockphoto.com/photos/cutting-board-with-chef-hat-knife-tomatoes-onion-background-picture-id185095805?k=6&m=185095805&s=612x612&w=0&h=WaCGCHRCyQwFAt3OX0n47Qk0iKf9s6Nh_3rZJnPkzQQ=) no-repeat center;
-background-size: cover;
+ background: url(https://media.istockphoto.com/photos/cutting-board-with-chef-hat-knife-tomatoes-onion-background-picture-id185095805?k=6&m=185095805&s=612x612&w=0&h=WaCGCHRCyQwFAt3OX0n47Qk0iKf9s6Nh_3rZJnPkzQQ=);
+}
+#title{
+  font-family: sans-serif;
+  color: darkred;
+}
+#description{
+  font-style: italic;
+  font-size: 20px;
 }
 #survey-form{
-  padding-left: 350px;
-  padding-right: 350px;
+  padding-left: 250px;
+  padding-right: 250px;
   background: gray;
   background-clip: content-box;
-  opacity: .75;
+  opacity: .85;
   font-size: 25px;
-  text-align: left;
+  text-align: center;
+}
+#name{
+  width: 300px;
+  height: 35px;
+  text-align: center;
+}
+#email{
+   width: 300px;
+  height: 35px;
+  text-align: center;
+}
+#number{
+  width: 300px;
+  height: 35px;
+  text-align: center;
+}
+.email{
+  text-align: center;
+}
+#dropdown{
+  width: 300px;
+  height: 35px;
+}
+#submit{
+  width: 300px;
+  height: 35px;
 }

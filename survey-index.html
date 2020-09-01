@@ -9,8 +9,8 @@
     <label id="name-label"> Name: </label><br><br>
     <input id="name" type="text" name="fullname" placeholder="Name" Required><br><br>
     <label id="email-label"> Email:</label><br><br>
-    <input id="email" type="email" placeholder="Enter your email" Required>
-<input type="submit" value="Submit"><br><br>
+    <input id="email" type="email" placeholder="Enter your email" Required><br>
+<input class="email" type="submit" value="Submit"><br><br>
       <label id="number-label"> Age: (optional)</label><br><br>
    <input id="number"  type="number" placeholder="number" min="16" max="99"><br><br>
     <label> Which Career Path are you looking for? (Select One)</label><br><br>
@@ -22,7 +22,7 @@
 </select><br><br>
   Which Cuisine is your favorite to style?(Choose One)<br><br>
 <input type="radio" name="favorite_cuisine"
-value="Italian" checked> Italian <br>
+value="Italian"> Italian <br>
 <input type="radio" name="favorite_cuisine"
 value="Peruvian"> Peruvian <br>
 <input type="radio" name="favorite_cuisine"
@@ -33,8 +33,7 @@ value="Chinese"> Chinese <br>
 value="French"> French <br>
 <input type="radio" name="favorite_cuisine"
 value="American"> American <br>
-<input type="radio" name="favorite_cuisine"
-value="Indian"> Indian <br><br>
+  <input type="radio" name="favorite_cuisine" value="Indian"> Indian<br><br>
   Would you like to be added to our mailing list?<br>
 <input type="checkbox" id="checkbox" name="mail-list" value="Yes">
 <label for="mail-list"> Yes</label><br>
@@ -42,7 +41,7 @@ value="Indian"> Indian <br><br>
 <label for="mail-list"> No</label><br><br>
 <form action="/html/codes/html-comment-box-code-action.cfm" method="get">
 List your skills and/or qualifications:<br>
-<textarea rows="4" cols="25"></textarea><br /><br><br>
-  <input type="submit" value="Submit">
+<textarea rows="8" cols="40"></textarea><br /><br>
+  <input id="submit" type="submit" value="Submit"><br>
 </form>
  </body>
