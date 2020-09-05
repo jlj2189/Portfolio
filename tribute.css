@@ -25,14 +25,14 @@ font-family: sans-serif;
 }
 #tribute-info{
 border-style: solid;
-  font-size: 45px;
+  font-size: 35px;
 }
 .tribute-info{
   text-align: left;
-  font-size: 35px;
+  font-size: 25px;
 }
 .chefs{
-  font-size: 35px;
+  font-size: 25px;
   border-style: dotted;
   font-family: sans-serif;
 }
