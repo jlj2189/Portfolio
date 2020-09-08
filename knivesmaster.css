@@ -11,19 +11,28 @@
     margin:0 auto;
     padding:2rem 5rem;
     background: linear-gradient(90deg, black, gray, white);
-    color:#fff;
-  font-size: 20px;
+    color: white;
+  font-size: 25px;
 }
 header h1 {
     line-height: 45px;
     font-size: 2rem;
     margin: 0;
+
 }
 #nav-bar {
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-    float:right;
+  margin-bottom: 0;
+  list-style: none;
+  float: right;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: linear-gradient(90deg, black, gray, white);
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+  padding-left: 950px;
+  padding-top: 75px;
 }
 
 nav  li {
@@ -68,7 +77,8 @@ input{
 #video{
   width: 853px;
   height: 480px;
-  padding-left: 100px;
+  padding-left: 275px;
+  padding-bottom: 100px;
 }
 .feature{
   text-align: left;
@@ -78,4 +88,36 @@ input{
 }
 .quality{
   text-align: left;
+}
+
+.column {
+    float: left;
+    position: relative;
+    padding: 100px;
+    width: 20%;
+    background: #f2f2f2;
+    border: 1px solid #e6e6e6;
+    box-sizing: border-box;
+    border: solid black;
+
+}
+
+.column-offset-1 {
+    left: 40%;
+}
+.column-offset-2 {
+    left: 40%;
+}
+.column-offset-3 {
+    left: 40%;
+}
+
+.column-inset-1 {
+    left: -20%;
+}
+.column-inset-2 {
+    left: -40%;
+}
+.column-inset-3 {
+    left: -60%;
 }
