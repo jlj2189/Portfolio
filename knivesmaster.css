@@ -31,8 +31,8 @@ header h1 {
   background-color: linear-gradient(90deg, black, gray, white);
   color: white;
   font-family: 'Exo 2', sans-serif;
-  padding-left: 950px;
-  padding-top: 75px;
+  padding-left: 1100px;
+
 }
 
 nav  li {
@@ -93,31 +93,48 @@ input{
 .column {
     float: left;
     position: relative;
-    padding: 100px;
+    padding: 5px;
     width: 20%;
     background: #f2f2f2;
     border: 1px solid #e6e6e6;
     box-sizing: border-box;
     border: solid black;
-
+  text-align: center;
 }
 
 .column-offset-1 {
-    left: 40%;
+    left: 30%;
 }
 .column-offset-2 {
     left: 40%;
 }
 .column-offset-3 {
-    left: 40%;
+    left: 30%;
 }
 
 .column-inset-1 {
-    left: -20%;
+    left: -10%;
 }
 .column-inset-2 {
-    left: -40%;
+    left: -30%;
 }
 .column-inset-3 {
-    left: -60%;
+    left: -30%;
+}
+.column column-one column-offset-2{
+
+}
+.column column-two column-inset-1{
+
+}
+.column column-three column-offset-1{
+
+}
+.items-included{
+  font-size: 14px;
+  text-align: left;
+}
+.button{
+  height: 50px;
+  width: 75px;
 }
