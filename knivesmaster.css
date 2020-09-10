@@ -1,7 +1,7 @@
 #header-img{
   width: 175px;
   height: 100px;
-
+  display: flex;
 }
 #header {
     position:relative;
@@ -77,7 +77,7 @@ input{
 #video{
   width: 853px;
   height: 480px;
-  padding-left: 275px;
+  padding-left: 400px;
   padding-bottom: 100px;
 }
 .feature{
@@ -99,7 +99,6 @@ input{
     border: 1px solid #e6e6e6;
     box-sizing: border-box;
     border: solid black;
-  text-align: center;
 }
 
 .column-offset-1 {
@@ -120,21 +119,12 @@ input{
 }
 .column-inset-3 {
     left: -30%;
-}
-.column column-one column-offset-2{
 
-}
-.column column-two column-inset-1{
-
-}
-.column column-three column-offset-1{
-
-}
 .items-included{
   font-size: 14px;
   text-align: left;
 }
 .button{
-  height: 50px;
-  width: 75px;
+  height: 75px;
+  width: 100px;
 }
