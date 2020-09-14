@@ -1,0 +1,41 @@
+#navbar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.nav-link {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+#navbar a:hover {
+  color: #f1f1f1;
+}
+
+#main-doc {
+  margin-left: 160px;
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  #navbar {padding-top: 15px;}
+  .nav-link {font-size: 18px;}
+}
+.main-section{
+  padding-left: 100px;
+}
+header{
+  font-weight: bold;
+  text-decoration: underline overline;
+  color: #818181;
+}
