@@ -39,3 +39,7 @@ header{
   text-decoration: underline overline;
   color: #818181;
 }
+.main-section{
+  background-color: lightblue;
+  border-radius: 20%;
+}
