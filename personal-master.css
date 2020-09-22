@@ -23,8 +23,16 @@
 #projects{
   background-color: darkred;
 }
-.codepen{
+#wrapper{
+  width: 90%;
+  margin: 0 auto;
   display: grid;
-  grid-column-gap: 15px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1 fr))
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+#item{
+  background: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
 }
