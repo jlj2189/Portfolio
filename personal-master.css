@@ -1,6 +1,8 @@
 #navbar {
   background-color: darkred;
   overflow: hidden;
+  position: fixed;
+ padding-left: 79%;
 }
 #navbar a {
   float: right;
