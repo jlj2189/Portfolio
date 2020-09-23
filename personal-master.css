@@ -1,8 +1,8 @@
 #navbar {
   background-color: darkred;
   overflow: hidden;
-  position: fixed;
- padding-left: 79%;
+ position: fixed;
+  padding-left: 79%;
 }
 #navbar a {
   float: right;
@@ -12,6 +12,7 @@
   text-decoration: none;
   font-size: 25px;
   font-weight: bold;
+
 }
 #about{
   text-align: center;
@@ -37,4 +38,10 @@
   color: white;
   padding: 10px;
   text-align: center;
+}
+  @media not|only mediatype and (expressions) {
+  CSS-Code;
+ }
+#welcome-section {
+  height: 100vh;
 }
