@@ -38,6 +38,7 @@
   color: white;
   padding: 10px;
   text-align: center;
+  border-radius: 100px;
 }
   @media not|only mediatype and (expressions) {
   CSS-Code;
